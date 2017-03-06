@@ -1,4 +1,5 @@
 <?php
+//script para enviar correo
 $destino = "luis.casanova.uady@live.com";
 $nombre = $_POST["Nombre"];
 $correo = $_POST["Correo"];
