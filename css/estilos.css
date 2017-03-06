@@ -1,0 +1,306 @@
+header{
+	color: white;
+}
+
+#principal{
+	min-height: 650px;
+	background-image: url('../images/fondo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+p{  font-family: 'Ubuntu', sans-serif;
+	text-align: justify;
+	font-size: 20px;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    margin-left: 1%;
+}
+
+section article{
+	margin-top: 190px;
+}
+
+section article h1{
+	font-size: 140px;
+    color: #fff;
+}
+
+section article h2{
+	font-size: 30px;
+    color: #fff;
+}
+
+
+ table tr td,.btn-primary{
+ 	 font-family: 'Open Sans Condensed', sans-serif;
+ 	 font-size: 20px;
+ }
+ 
+ .input-group-addon{
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ }
+
+section article h1 span{
+	font-size: 140px;
+    color: #0274be;
+}
+
+@media(max-width: 880px){
+
+	p{
+	text-align: justify;
+	font-size: 17px;
+}
+
+section article{
+	margin-top: 160px;
+}
+
+img {
+    width: 190px;
+    height: auto;
+    padding: 15px;
+    margin-left: 1%;
+}
+
+section article h1{
+	font-size: 100px;
+    color: #fff;
+    margin-left: 0px;
+}
+
+section article h2{
+	font-size: 30px;
+    color: #fff;
+    text-shadow: 0px -1px 9px rgba(2, 116, 190, 0.5);
+}
+
+section article h1 span{
+	font-size: 120px;
+    color: #0274be;
+}
+
+#principal{
+	min-height: 650px;
+	background-image: url('../images/fondo3.jpg');
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+#sub{
+	color: #fff;
+	text-shadow: 0px -1px 9px rgba(2, 116, 190, 0.5);
+}
+
+}
+
+
+#titulo1{
+	text-shadow: 2px 2px 4px rgba(145, 150, 150, 0.78);
+}
+
+#overTitle,#about,#services{
+	text-shadow: 1px 0px 2px rgba(150, 150, 150, 0.51);
+}
+
+
+#niveldos{
+	margin-top: 50px;
+}
+
+#niveltres{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+form{
+	text-align: center;
+}
+
+#video{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#dropdownMenu1{
+	margin-top:15px;
+	float: right; }
+
+
+
+#lista{
+		margin-top: 60px;
+		margin-right: 30px;
+	}
+
+#foto{
+	margin-top: 100px;
+	padding: 0;
+	}
+
+	#upArrow{
+		margin-top: 200px;
+		height: 160px;
+		padding: 0;
+		float: left;
+		margin-right:0px;
+	}
+
+	#downArrow{
+		height: 160px;
+		margin-top: 200px;
+		padding: 0;
+		margin-left: 0px;
+	}
+
+#about,#contact,#services,#courses{
+		color:#0274BE;
+		font-family: 'Poppins', sans-serif;
+	}
+	
+	#services,#courses{
+		margin-top: 80px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+.glyphicon.glyphicon-globe {
+    font-size: 70px;
+}
+
+textarea{
+	max-width: 100%;
+}
+
+.input-group-addon {
+    min-width:80px;// if you want width please write here //
+}
+
+
+#fotoText{
+	height: auto;
+	width: 150px;
+}
+
+
+
+.colorArea{
+	background-color: #F7FAFC;
+	padding-bottom: 70px;
+}
+
+#tabla{
+	margin-bottom: 60px;
+}
+
+li a{
+	font-size: 15px;
+}
+
+@media(max-width: 600px){
+
+section article h1{
+	font-size: 90px;
+    color: #fff;
+    margin-left: 0px;
+}
+
+section article h2{
+	font-size: 30px;
+    color: #fff;
+    text-shadow: 0px -1px 9px rgba(2, 116, 190, 0.5);
+}
+
+section article h1 span{
+	font-size:90px;
+    color: #0274be;
+    text-align: center;
+}
+
+}
+
+
+@media(max-width: 455px){
+
+section article h1{
+	font-size: 60px;
+    color: #fff;
+    margin-left: 0px;
+}
+
+section article h2{
+	font-size: 30px;
+    color: #fff;
+    text-shadow: 0px -1px 9px rgba(2, 116, 190, 0.5);
+}
+
+section article h1 span{
+	font-size:56px;
+    color: #0274be;
+    text-align: center;
+}
+
+ table tr td{
+ 	 font-family: 'Open Sans Condensed', sans-serif;
+ 	 font-size: 15px;
+ }
+
+ .pie{
+ 	font-size: 20px;
+ }
+
+ ul li a{
+ 	font-size:17px;
+ }
+}
+
+
+footer{
+	background-color: #F7FAFC;
+	min-height: 150px;
+}
+
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-yb:hover {
+     color: #d34836;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+ h5{
+ 	color: #898989;
+ }
